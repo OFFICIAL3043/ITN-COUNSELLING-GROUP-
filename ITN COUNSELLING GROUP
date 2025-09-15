@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITN Counselling Group</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        .container {
+            max-width: 1280px;
+        }
+        .text-gradient {
+            background-image: linear-gradient(to right, #6366f1, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white/70 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="#" class="text-2xl font-bold text-gray-800">
+                    <span class="text-gradient">ITN</span> Counselling Group
+                </a>
+            </div>
+            <div class="flex space-x-6 items-center">
+                <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
+                <a href="#services" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Services</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+                <button class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-full shadow-lg transition-transform transform hover:scale-105">
+                    Book Now
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-gray-100/50 pt-20 pb-28">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4">
+                    Healing <span class="text-gradient">Relationships</span> Together
+                </h1>
+                <p class="text-lg md:text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+                    We provide a safe and supportive space for couples, families, and individuals to navigate challenges, strengthen connections, and find resolution.
+                </p>
+                <button class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-full shadow-xl transition-transform transform hover:scale-105">
+                    Start Your Journey
+                </button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Our Approach</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Mission Card -->
+                    <div class="card p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center justify-center w-12 h-12 bg-indigo-100 text-indigo-500 rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Compassionate Care</h3>
+                        <p class="text-gray-600">
+                            We offer a warm, non-judgmental environment where you can feel safe to share your thoughts and feelings.
+                        </p>
+                    </div>
+
+                    <!-- Vision Card -->
+                    <div class="card p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center justify-center w-12 h-12 bg-purple-100 text-purple-500 rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.083 12.083 0 003 12c0 2.83 1.135 5.42 2.972 7.352M12 21v-8m-4-8v8m8-8v8" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Evidence-Based Methods</h3>
+                        <p class="text-gray-600">
+                            Our therapists use proven techniques to help you develop the skills and understanding needed for healthy relationships.
+                        </p>
+                    </div>
+
+                    <!-- Team Card -->
+                    <div class="card p-8 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="flex items-center justify-center w-12 h-12 bg-pink-100 text-pink-500 rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a4 4 0 014-4h12a4 4 0 004-4v-11a2 2 0 00-2-2h-8a2 2 0 00-2 2v1h-1a2 2 0 00-2 2v2a2 2 0 002 2h2v4a2 2 0 01-2 2zm1-1h1a2 2 0 012 2v1h-1a2 2 0 00-2-2zm-12 0h1a2 2 0 012 2v1h-1a2 2 0 00-2-2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Experienced Therapists</h3>
+                        <p class="text-gray-600">
+                            Our team is composed of licensed and compassionate professionals dedicated to your well-being.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1: Couples Therapy -->
+                    <div class="card p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
+                        <div class="w-20 h-20 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a4 4 0 014-4h12a4 4 0 004-4v-11a2 2 0 00-2-2h-8a2 2 0 00-2 2v1h-1a2 2 0 00-2 2v2a2 2 0 002 2h2v4a2 2 0 01-2 2zm1-1h1a2 2 0 012 2v1h-1a2 2 0 00-2-2zm-12 0h1a2 2 0 012 2v1h-1a2 2 0 00-2-2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Couples Therapy</h3>
+                        <p class="text-gray-600">
+                            Enhance communication, resolve conflicts, and rebuild trust with your partner in a guided, safe environment.
+                        </p>
+                    </div>
+
+                    <!-- Service 2: Individual Therapy -->
+                    <div class="card p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
+                        <div class="w-20 h-20 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Individual Therapy</h3>
+                        <p class="text-gray-600">
+                            Explore personal growth, manage stress, and work through individual challenges to improve your overall well-being.
+                        </p>
+                    </div>
+
+                    <!-- Service 3: Family Therapy -->
+                    <div class="card p-8 rounded-xl shadow-lg flex flex-col items-center text-center">
+                        <div class="w-20 h-20 mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full text-pink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Family Therapy</h3>
+                        <p class="text-gray-600">
+                            Address family conflicts and communication issues to build a stronger, more cohesive family unit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">Take the First Step</h2>
+                <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+                    Contact us today to schedule a confidential consultation. We are here to listen and help you on your journey.
+                </p>
+                <form class="max-w-lg mx-auto bg-gray-100 p-8 rounded-xl shadow-md">
+                    <div class="mb-4">
+                        <input type="text" placeholder="Your Name" value="Jeremy Pierce" class="w-full p-3 rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div class="mb-4">
+                        <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-lg border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-4 rounded-full shadow-lg transition-transform transform hover:scale-105">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 ITN Counselling Group. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
